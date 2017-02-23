@@ -9,12 +9,12 @@ namespace ConsoleApplication4
     {
         public void s6()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("C::s6"); v1();
         }
 
         public void s7()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("C::s7"); v2();
         }
     }
 }

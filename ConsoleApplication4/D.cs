@@ -9,17 +9,17 @@ namespace ConsoleApplication4
     {
         public void s7()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("D::s7"); s3();
         }
 
         public void s8()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("D::s8"); v2();
         }
 
         protected void v2()
         {
-            throw new System.NotImplementedException();
+            Console.WriteLine("D::v2"); s7();
         }
     }
 }
